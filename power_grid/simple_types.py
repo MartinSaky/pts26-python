@@ -21,3 +21,10 @@ class PlayerColor(Enum):
 @dataclass
 class RequestError:
     description: str
+
+
+#Phase Status
+class PhaseStatus(Enum):
+    PHASE_CONTINUES = 1
+    PHASE_ENDS = 2
+    GAME_ENDS = 3
